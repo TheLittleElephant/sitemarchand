@@ -1,0 +1,3 @@
+
+var ApiGen = ApiGen || {};
+ApiGen.elements = [["f","__autoload()"],["c","Authentication"],["co","BAD_CREDENTIALS"],["c","Cart"],["co","CATEGORY_ADDED"],["co","CATEGORY_DELETED"],["co","CATEGORY_MODIFIED"],["co","CATEGORY_NOT_ADDED"],["co","CATEGORY_NOT_DELETED"],["co","CATEGORY_NOT_MODIFIED"],["co","CHECKOUT_SUCCESSFUL"],["c","Dashboard"],["c","Database"],["co","GOOD_CREDENTIALS"],["c","Messages"],["co","NOT_GRANTED"],["c","PDO"],["co","PRODUCT_ADDED"],["co","PRODUCT_DELETED"],["co","PRODUCT_EMPTY"],["co","PRODUCT_MODIFIED"],["co","PRODUCT_NOT_ADDED"],["co","PRODUCT_NOT_DELETED"],["co","PRODUCT_NOT_MODIFIED"],["co","USER_ADDED"],["co","USER_MODIFIED"],["co","USER_NOT_ADDED"],["co","USER_NOT_MODIFIED"]];

@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Cart | Vinyl' Shop</title>
+
+	<script type="text/javascript" src="resources/combined.js?2052347489"></script>
+	<script type="text/javascript" src="elementlist.js?4067243160"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Authentication.html">Authentication</a></li>
+				<li class="active"><a href="class-Cart.html">Cart</a></li>
+				<li><a href="class-Dashboard.html">Dashboard</a></li>
+				<li><a href="class-Database.html">Database</a></li>
+				<li><a href="class-Messages.html">Messages</a></li>
+			</ul>
+
+
+
+
+			<h3>Constants</h3>
+			<ul>
+				<li><a href="constant-BAD_CREDENTIALS.html">BAD_CREDENTIALS</a></li>
+				<li><a href="constant-CATEGORY_ADDED.html">CATEGORY_ADDED</a></li>
+				<li><a href="constant-CATEGORY_DELETED.html">CATEGORY_DELETED</a></li>
+				<li><a href="constant-CATEGORY_MODIFIED.html">CATEGORY_MODIFIED</a></li>
+				<li><a href="constant-CATEGORY_NOT_ADDED.html">CATEGORY_NOT_ADDED</a></li>
+				<li><a href="constant-CATEGORY_NOT_DELETED.html">CATEGORY_NOT_DELETED</a></li>
+				<li><a href="constant-CATEGORY_NOT_MODIFIED.html">CATEGORY_NOT_MODIFIED</a></li>
+				<li><a href="constant-CHECKOUT_SUCCESSFUL.html">CHECKOUT_SUCCESSFUL</a></li>
+				<li><a href="constant-GOOD_CREDENTIALS.html">GOOD_CREDENTIALS</a></li>
+				<li><a href="constant-NOT_GRANTED.html">NOT_GRANTED</a></li>
+				<li><a href="constant-PRODUCT_ADDED.html">PRODUCT_ADDED</a></li>
+				<li><a href="constant-PRODUCT_DELETED.html">PRODUCT_DELETED</a></li>
+				<li><a href="constant-PRODUCT_EMPTY.html">PRODUCT_EMPTY</a></li>
+				<li><a href="constant-PRODUCT_MODIFIED.html">PRODUCT_MODIFIED</a></li>
+				<li><a href="constant-PRODUCT_NOT_ADDED.html">PRODUCT_NOT_ADDED</a></li>
+				<li><a href="constant-PRODUCT_NOT_DELETED.html">PRODUCT_NOT_DELETED</a></li>
+				<li><a href="constant-PRODUCT_NOT_MODIFIED.html">PRODUCT_NOT_MODIFIED</a></li>
+				<li><a href="constant-USER_ADDED.html">USER_ADDED</a></li>
+				<li><a href="constant-USER_MODIFIED.html">USER_MODIFIED</a></li>
+				<li><a href="constant-USER_NOT_ADDED.html">USER_NOT_ADDED</a></li>
+				<li><a href="constant-USER_NOT_MODIFIED.html">USER_NOT_MODIFIED</a></li>
+			</ul>
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__autoload.html">__autoload</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Cart</h1>
+
+
+	<div class="description">
+	
+<p>Classe permettant la gestion du panier</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Author:</b>
+				Jonathan<br />
+				<b>Version:</b>
+				1.0<br />
+				<b>Since:</b>
+				06/05/2016<br />
+		<b>Located at</b> classes/Cart.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span><code><a href="class-Database.html">Database</a></code> <var>$db</var></span>, <span><code><a href="class-Messages.html">Messages</a></code> <var>$messages</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Construit l'objet Cart, initialise les propriétés puis vérifie la session
+n'est pas démarrée et construit le panier s'il n'existe pas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Construit l'objet Cart, initialise les propriétés puis vérifie la session
+n'est pas démarrée et construit le panier s'il n'existe pas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$db</var></dt>
+					<dd><code><code><a href="class-Database.html">Database</a></code></code><br>$db Permet d'accéder aux méthodes de la classe Database</dd>
+					<dt><var>$messages</var></dt>
+					<dd><code><code><a href="class-Messages.html">Messages</a></code></code><br>$messages Permet d'accéder aux méthodes de la classe Messages</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="addToCart" id="_addToCart">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_addToCart">#</a>
+		<code>addToCart( <span>string <var>$post_submit</var></span>, <span>string <var>$post_id</var></span>, <span>string <var>$post_name</var></span>, <span>string <var>$post_quantity</var></span>, <span>string <var>$post_price</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Ajoute le produit dans le panier</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Ajoute le produit dans le panier</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$post_submit</var></dt>
+					<dd><code>string</code><br>$post_submit Bouton de validation du formulaire</dd>
+					<dt><var>$post_id</var></dt>
+					<dd><code>string</code><br>$post_id Identifiant du produit dans la base de données</dd>
+					<dt><var>$post_name</var></dt>
+					<dd><code>string</code><br>$post_name Nom du produit</dd>
+					<dt><var>$post_quantity</var></dt>
+					<dd><code>string</code><br>$post_quantity Quantité du produit</dd>
+					<dt><var>$post_price</var></dt>
+					<dd><code>string</code><br>$post_price Prix du produit</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="updateCart" id="_updateCart">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_updateCart">#</a>
+		<code>updateCart( <span>string <var>$post_submit</var></span>, <span>string <var>$post_index</var></span>, <span>string <var>$post_quantity</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Met à jour le panier</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Met à jour le panier</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$post_submit</var></dt>
+					<dd><code>string</code><br>$post_submit Bouton de validation du formulaire</dd>
+					<dt><var>$post_index</var></dt>
+					<dd><code>string</code><br>$post_id Identifiant du produit dans la base de données</dd>
+					<dt><var>$post_quantity</var></dt>
+					<dd><code>string</code><br>$post_index Index du produit dans le tableau</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="deleteFromCart" id="_deleteFromCart">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_deleteFromCart">#</a>
+		<code>deleteFromCart( <span>string <var>$post_submit</var></span>, <span>string <var>$post_index</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Supprime un produit du panier en utilisant sa référence</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Supprime un produit du panier en utilisant sa référence</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$post_submit</var></dt>
+					<dd><code>string</code><br>$post_submit Bouton de validation du formulaire</dd>
+					<dt><var>$post_index</var></dt>
+					<dd><code>string</code><br>$post_index Index du produit dans le tableau</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCart" id="_getCart">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCart">#</a>
+		<code>getCart( )</code>
+
+		<div class="description short">
+			
+<p>Retourne le panier</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retourne le panier</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="productsNumber" id="_productsNumber">
+
+		<td class="attributes"><code>
+			 public 
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_productsNumber">#</a>
+		<code>productsNumber( )</code>
+
+		<div class="description short">
+			
+<p>Retourne le nombre de produits contenus dans le panier</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retourne le nombre de produits contenus dans le panier</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="totalPrice" id="_totalPrice">
+
+		<td class="attributes"><code>
+			 public 
+			float
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_totalPrice">#</a>
+		<code>totalPrice( )</code>
+
+		<div class="description short">
+			
+<p>Retourne le prix total des achats</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retourne le prix total des achats</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>float</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="cartCheckout" id="_cartCheckout">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_cartCheckout">#</a>
+		<code>cartCheckout( )</code>
+
+		<div class="description short">
+			
+<p>Valide le panier</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Valide le panier</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="emptyCart" id="_emptyCart">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_emptyCart">#</a>
+		<code>emptyCart( )</code>
+
+		<div class="description short">
+			
+<p>Vide le panier</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Vide le panier</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="db" id="$db">
+		<td class="attributes"><code>
+			private  
+			<code><a href="class-Database.html">Database</a></code>
+		</code></td>
+
+		<td class="name">
+<var>$db</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$db" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Contient l'objet Database</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Contient l'objet Database</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="messages" id="$messages">
+		<td class="attributes"><code>
+			private  
+			<code><a href="class-Messages.html">Messages</a></code>
+		</code></td>
+
+		<td class="name">
+<var>$messages</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$messages" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Contient l'objet Messages</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Contient l'objet Messages</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Vinyl' Shop API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

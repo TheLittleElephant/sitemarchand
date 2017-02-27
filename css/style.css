@@ -1,0 +1,204 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+body {
+  padding-top: 5rem;
+  font-family: "Open Sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.badge {
+    background: white;
+    color: #3385ff;
+}
+.btn-primary {
+    background: #3385ff;
+    border: #3385ff;
+}
+.table-striped {
+    text-align: left;
+}
+.navbar-default{
+  background-color: #3385ff;
+  border-color: #3385ff;
+  font-size: 14px;
+}
+.input-search {
+    border-radius: 3px 3px 3px 3px;
+    font-size: 13px;
+}
+.dropdown-menu {
+    font-size: 14px;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #1120b1;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #1120b1;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #1120b1;
+  background-color: #3385ff;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #1120b1;
+  background-color: #3385ff;
+}
+.navbar-default .navbar-toggle {
+  border-color: #3385ff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #3385ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #1120b1;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #1120b1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #1120b1;
+    background-color: #3385ff;
+  }
+}
+
+.navbar-brand {
+    font-family: "Permanent Marker", "Open Sans", "Trebuchet MS", Verdana, Helvetica, sans-serif;
+}
+.price {
+    width: 100%;
+    border-top: 1px solid #3385ff;
+    border-bottom: 1px solid #3385ff;
+}
+
+input[type=text], input[type=number], textarea, .quantity {
+    border-radius: 2px 2px 2px 2px;
+    border: 1px solid #3385ff;
+    padding: 5px; 
+}
+.green {
+    color: #0b9f55;
+    font-weight: bold;
+}
+.red {
+    color: #ee1d1d;
+    font-weight: bold;
+}
+.thumb {
+    width: 65px;
+    height: 65px;
+}
+.fa-shopping-basket {
+    float: left; 
+    font-size: 55px;
+    color: #3385ff;
+}
+.panel-primary {
+    float: right;
+    text-align: right;
+    border: 1px solid #3385ff;
+}
+.panel-primary > .panel-heading {
+    background: #3385ff;
+    border:#3385ff;
+}
+
+input[type=number] {
+    width: 55px;
+}
+input[type=text] {
+    width: 150px;
+}
+
+select.form-control, textarea.form-control {
+    border: 1px solid #3385ff;
+}
+
+.add-product-form {
+    margin: 0 auto;
+    width: 300px;
+    text-align: left;
+}
+
+.empty-product {
+    border: 1px solid #cc0000;
+}
+
+.ribbon {
+  position: absolute;
+  right: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#FF3E38 0%, #D41711 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; right: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #D41711;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #D41711;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #D41711;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #D41711;
+}

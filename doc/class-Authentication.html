@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Authentication | Vinyl' Shop</title>
+
+	<script type="text/javascript" src="resources/combined.js?2052347489"></script>
+	<script type="text/javascript" src="elementlist.js?4067243160"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-None.html">None</a>
+						</li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Authentication.html">Authentication</a></li>
+				<li><a href="class-Cart.html">Cart</a></li>
+				<li><a href="class-Dashboard.html">Dashboard</a></li>
+				<li><a href="class-Database.html">Database</a></li>
+				<li><a href="class-Messages.html">Messages</a></li>
+			</ul>
+
+
+
+
+			<h3>Constants</h3>
+			<ul>
+				<li><a href="constant-BAD_CREDENTIALS.html">BAD_CREDENTIALS</a></li>
+				<li><a href="constant-CATEGORY_ADDED.html">CATEGORY_ADDED</a></li>
+				<li><a href="constant-CATEGORY_DELETED.html">CATEGORY_DELETED</a></li>
+				<li><a href="constant-CATEGORY_MODIFIED.html">CATEGORY_MODIFIED</a></li>
+				<li><a href="constant-CATEGORY_NOT_ADDED.html">CATEGORY_NOT_ADDED</a></li>
+				<li><a href="constant-CATEGORY_NOT_DELETED.html">CATEGORY_NOT_DELETED</a></li>
+				<li><a href="constant-CATEGORY_NOT_MODIFIED.html">CATEGORY_NOT_MODIFIED</a></li>
+				<li><a href="constant-CHECKOUT_SUCCESSFUL.html">CHECKOUT_SUCCESSFUL</a></li>
+				<li><a href="constant-GOOD_CREDENTIALS.html">GOOD_CREDENTIALS</a></li>
+				<li><a href="constant-NOT_GRANTED.html">NOT_GRANTED</a></li>
+				<li><a href="constant-PRODUCT_ADDED.html">PRODUCT_ADDED</a></li>
+				<li><a href="constant-PRODUCT_DELETED.html">PRODUCT_DELETED</a></li>
+				<li><a href="constant-PRODUCT_EMPTY.html">PRODUCT_EMPTY</a></li>
+				<li><a href="constant-PRODUCT_MODIFIED.html">PRODUCT_MODIFIED</a></li>
+				<li><a href="constant-PRODUCT_NOT_ADDED.html">PRODUCT_NOT_ADDED</a></li>
+				<li><a href="constant-PRODUCT_NOT_DELETED.html">PRODUCT_NOT_DELETED</a></li>
+				<li><a href="constant-PRODUCT_NOT_MODIFIED.html">PRODUCT_NOT_MODIFIED</a></li>
+				<li><a href="constant-USER_ADDED.html">USER_ADDED</a></li>
+				<li><a href="constant-USER_MODIFIED.html">USER_MODIFIED</a></li>
+				<li><a href="constant-USER_NOT_ADDED.html">USER_NOT_ADDED</a></li>
+				<li><a href="constant-USER_NOT_MODIFIED.html">USER_NOT_MODIFIED</a></li>
+			</ul>
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-__autoload.html">__autoload</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-None.html" title="Summary of None"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Authentication</h1>
+
+
+	<div class="description">
+	
+<p>Classe permettant la gestion de l'authentification au site</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Author:</b>
+				Jonathan<br />
+				<b>Version:</b>
+				1.0<br />
+				<b>Since:</b>
+				07/05/2016<br />
+		<b>Located at</b> classes/Authentication.php<br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code>__construct( <span><code><a href="class-Database.html">Database</a></code> <var>$db</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Construit l'objet Authentication, initialise les propriétés puis démarre
+la session s'il est n'est pas déjà démarrée et construit l'utilisateur s'il
+n'existe pas</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Construit l'objet Authentication, initialise les propriétés puis démarre
+la session s'il est n'est pas déjà démarrée et construit l'utilisateur s'il
+n'existe pas</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$db</var></dt>
+					<dd><code><code><a href="class-Database.html">Database</a></code></code><br>$db Permet d'accéder aux méthodes de la classe Database</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="userLogin" id="_userLogin">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_userLogin">#</a>
+		<code>userLogin( <span>string <var>$post_submit</var></span>, <span>string <var>$post_username</var></span>, <span>string <var>$post_password</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Vérifie les identifiants de l'utilisateur</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Vérifie les identifiants de l'utilisateur</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$post_submit</var></dt>
+					<dd><code>string</code><br>$post_submit Bouton de validation du formulaire</dd>
+					<dt><var>$post_username</var></dt>
+					<dd><code>string</code><br>$post_username Nom de l'utilisateur</dd>
+					<dt><var>$post_password</var></dt>
+					<dd><code>string</code><br>$post_password Mot de passe de l'utilisateur</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUser" id="_getUser">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUser">#</a>
+		<code>getUser( )</code>
+
+		<div class="description short">
+			
+<p>Retourne le client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retourne le client</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isLogged" id="_isLogged">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isLogged">#</a>
+		<code>isLogged( )</code>
+
+		<div class="description short">
+			
+<p>Vérifie si l'utilisateur est connecté</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Vérifie si l'utilisateur est connecté</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="isGranted" id="_isGranted">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_isGranted">#</a>
+		<code>isGranted( )</code>
+
+		<div class="description short">
+			
+<p>Vérifie si l'utilisateur a les droits pour accéder à l'interface
+d'administration</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Vérifie si l'utilisateur a les droits pour accéder à l'interface
+d'administration</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUsername" id="_getUsername">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUsername">#</a>
+		<code>getUsername( )</code>
+
+		<div class="description short">
+			
+<p>Retourne le nom du client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retourne le nom du client</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getUserId" id="_getUserId">
+
+		<td class="attributes"><code>
+			 public static
+			integer
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getUserId">#</a>
+		<code>getUserId( )</code>
+
+		<div class="description short">
+			
+<p>Retourne l'ID du client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Retourne l'ID du client</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>integer</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="logout" id="_logout">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_logout">#</a>
+		<code>logout( )</code>
+
+		<div class="description short">
+			
+<p>Déconnecte le client</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Déconnecte le client</p>
+
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="sessionTimeIsOver" id="_sessionTimeIsOver">
+
+		<td class="attributes"><code>
+			 public 
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_sessionTimeIsOver">#</a>
+		<code>sessionTimeIsOver( )</code>
+
+		<div class="description short">
+			
+<p>Vérifie si la session dure plus que la valeur de la constante
+SESSION_TIME</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Vérifie si la session dure plus que la valeur de la constante
+SESSION_TIME</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>boolean</code><br />
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+	<table class="summary" id="constants">
+	<caption>Constants summary</caption>
+	<tr data-order="SESSION_TIME" id="SESSION_TIME">
+
+		<td class="attributes"><code>integer</code></td>
+		<td class="name"><code>
+<b>SESSION_TIME</b>		</code></td>
+		<td class="value"><code><span class="php-num">300</span></code></td>
+		<td class="description"><div>
+			<a href="#SESSION_TIME" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Constante définissant la durée maximale (en secondes) d'une session</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Constante définissant la durée maximale (en secondes) d'une session</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="db" id="$db">
+		<td class="attributes"><code>
+			private  
+			<code><a href="class-Database.html">Database</a></code>
+		</code></td>
+
+		<td class="name">
+<var>$db</var>		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$db" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Contient l'objet Database</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Contient l'objet Database</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Vinyl' Shop API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
